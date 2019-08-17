@@ -97,7 +97,7 @@ $ git reflog
 
 ### 撤销修改
 
-#####git checkout 撤销修改(本质上 使用版本库版本替代工作区版本)
+##### git checkout 撤销修改(本质上 使用版本库版本替代工作区版本)
 
 ``` 
 $ git checkout -- 文件名
