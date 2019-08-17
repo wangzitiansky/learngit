@@ -1,4 +1,4 @@
-#git总结
+# git总结
 
 总结自[廖雪峰的Git教程](https://www.liaoxuefeng.com/wiki/896043488029600)
 
@@ -8,7 +8,7 @@
 
 ##安装git
 
-#####homebrew 安装git
+#### homebrew 安装git
 
 [homebrew官方链接](https://brew.sh/)
 
