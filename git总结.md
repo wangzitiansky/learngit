@@ -6,7 +6,7 @@
 
 ****
 
-##安装git
+### 安装git
 
 #### homebrew 安装git
 
@@ -28,7 +28,7 @@ $ git config --global user.email "email@example.com"
 
 ### 创建版本库（repositeory）
 
-#####使用git init 命令将当前目录变成可管理的仓库
+##### 使用git init 命令将当前目录变成可管理的仓库
 
 ```
 $ git init
