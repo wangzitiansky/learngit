@@ -291,7 +291,7 @@ $ git checkout -b branch-name origin/branch-name
 ##### 建立本地分支和远程分支的关联
 
 ```
-$ git branch --set-upstream branch-name origin/branch-name
+$ git branch --set-upstream-to=origin/dev dev
 ```
 
 
@@ -323,6 +323,20 @@ $ git push -u origin master
 ```
 $ git push origin master
 ```
+
+##### git pull 命令将远程仓库的提交拉取到本地
+
+```
+$git pull
+```
+
+##### 遇到fatal: refusing to merge unrelated histories 报错
+
+```
+$ fatal: refusing to merge unrelated histories
+```
+
+
 
 ### 从远程库克隆
 
