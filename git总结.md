@@ -1,4 +1,4 @@
-# git总结
+#git总结
 
 总结自[廖雪峰的Git教程](https://www.liaoxuefeng.com/wiki/896043488029600)
 
@@ -21,13 +21,11 @@ $ git log --graph --pretty=oneline --abbrev-commit
 * 2a1d1eb first comm
 ```
 
-
-
 ****
 
-### 安装git
+##安装git
 
-#### homebrew 安装git
+#####homebrew 安装git
 
 [homebrew官方链接](https://brew.sh/)
 
@@ -47,7 +45,7 @@ $ git config --global user.email "email@example.com"
 
 ### 创建版本库（repositeory）
 
-##### 使用git init 命令将当前目录变成可管理的仓库
+#####使用git init 命令将当前目录变成可管理的仓库
 
 ```
 $ git init
@@ -116,7 +114,7 @@ $ git reflog
 
 ### 撤销修改
 
-##### git checkout 撤销修改(本质上 使用版本库版本替代工作区版本)
+#####git checkout 撤销修改(本质上 使用版本库版本替代工作区版本)
 
 ``` 
 $ git checkout -- 文件名
@@ -160,7 +158,7 @@ $ git checkout -b 分支名
 ##### -d 参数删除分支
 
 ```
-$ git checkout -d 分支名
+$ git branch -d 分支名
 ```
 
 ##### git branch命令查看当前分支
@@ -310,7 +308,7 @@ $ git checkout -b branch-name origin/branch-name
 ##### 建立本地分支和远程分支的关联
 
 ```
-$ git branch --set-upstream-to=origin/dev dev
+$ git branch --set-upstream branch-name origin/branch-name
 ```
 
 
@@ -343,23 +341,9 @@ $ git push -u origin master
 $ git push origin master
 ```
 
-##### git pull 命令将远程仓库的提交拉取到本地
-
-```
-$git pull
-```
-
-##### 遇到fatal: refusing to merge unrelated histories 报错
-
-```
-$ fatal: refusing to merge unrelated histories
-```
-
-
-
 ### 从远程库克隆
 
-##### git clone克隆至本地
+git clone克隆至本地
 
 ```
 $ git clone 仓库地址
