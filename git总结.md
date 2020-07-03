@@ -4,11 +4,15 @@
 
 作者[GitHub](https://github.com/wangzitiansky/learngit)
 
-### 我最爱忘记的命令
+### 容易忘记的命令
+
+合并分支 (禁用fast-forward形式)
 
 ```bash
 $ git merge --no-ff -m "merge 2" dev
 ```
+
+查看分支图
 
 ```bash
 $ git log --graph --pretty=oneline --abbrev-commit
@@ -19,6 +23,14 @@ $ git log --graph --pretty=oneline --abbrev-commit
 * 6e22ae1 (origin/master) second
 * f98eabc add readme
 * 2a1d1eb first comm
+```
+
+使用远程仓库内容覆盖本地分支
+
+```bash
+git fetch --all
+git reset --hard origin/branch_name
+git pull
 ```
 
 ****
